@@ -64,9 +64,8 @@ Python local setup for advent of code ⭐️🎄
    - Open the developer console.
    - Go to the Applications tab>Cookie option>copy `session` cookie.
      ```bash
-     export AOC_SESSION=<your-session-cookie>
+     mkdir -p ~/.config/aocd && echo "<your_session_cookie>" > ~/.config/aocd/token
      ```
-     **Note:**Windows users should use `set` instead of `export` here.
 
 6. Run the main script:
 - MAC
