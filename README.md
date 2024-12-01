@@ -61,7 +61,7 @@ Python local setup for advent of code ⭐️🎄
 5. Add your adoc session cookie:
 
    - Go to [adventofcode.com](https://adventofcode.com/).
-   - Open the developer console (F12).
+   - Open the developer console.
    - Go to the Applications tab>Cookie option>copy `session` cookie.
      ```bash
      export AOC_SESSION=<your-session-cookie>
@@ -78,7 +78,7 @@ Python local setup for advent of code ⭐️🎄
    python3 main.py
    ```
 
-7. Example Folder Structure:\br
+7. Example Folder Structure:
    ```bash
    ├── advent-of-code/
    │├── inputs/             
